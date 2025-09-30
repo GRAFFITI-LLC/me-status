@@ -1,36 +1,60 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# MarketEdge System Status & Uptime Monitoring
+owner: GRAFFITI-LLC
+repo: me-status
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  - name: MarketEdge Production (Web)
+    url: https://www.mktedg.com
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+    maxResponseTime: 5000
+
+  - name: MarketEdge API Health
+    url: https://www.mktedg.com/api/health
+    expectedStatusCodes:
+      - 200
+    maxResponseTime: 3000
+
+  - name: MarketEdge GraphQL Endpoint
+    url: https://www.mktedg.com/api/graphql
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"query": "{ __typename }"}'
+    expectedStatusCodes:
+      - 200
+    maxResponseTime: 3000
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  # GitHub Pages default URL (カスタムドメインは後で設定)
+  baseUrl: /me-status
+  name: MarketEdge Status
+  introTitle: "**MarketEdge** システムステータス"
+  introMessage: リアルタイムでMarketEdgeの稼働状況を確認できます
   navbar:
     - title: Status
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+    - title: Main Site
+      href: https://www.mktedg.com
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+# Slack notifications
+notifications:
+  - type: slack
+    webhook-url: ${{ secrets.SLACK_WEBHOOK_URL }}
+
+# Assignees for issues
+assignees:
+  - ttorii20
+
+# Commit messages
+commitMessages:
+  readmeContent: ":pencil: Update summary in README [skip ci] [upptime]"
+  summaryJson: ":card_file_box: Update status summary [skip ci] [upptime]"
+  statusChange: "$EMOJI $SITE_NAME is $STATUS ($RESPONSE_CODE in $RESPONSE_TIME ms) [skip ci] [upptime]"
+  graphsUpdate: ":bento: Update graphs [skip ci] [upptime]"
+
+user-agent: upptime/marketedge
