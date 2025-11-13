@@ -4,11 +4,11 @@
     "url": "https://www.mktedg.com",
     "icon": "https://icons.duckduckgo.com/ip3/www.mktedg.com.ico",
     "slug": "market-edge-production-web",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.99%",
+    "uptimeDay": "99.81%",
+    "uptimeWeek": "99.97%",
+    "uptimeMonth": "99.98%",
     "uptimeYear": "99.99%",
     "time": 613,
     "timeDay": 446,
@@ -16,6 +16,7 @@
     "timeMonth": 627,
     "timeYear": 613,
     "dailyMinutesDown": {
+      "2025-11-13": 3,
       "2025-10-16": 6
     }
   },
@@ -24,10 +25,10 @@
     "url": "https://www.mktedg.com/api/health",
     "icon": "https://icons.duckduckgo.com/ip3/www.mktedg.com.ico",
     "slug": "market-edge-api-health",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.92%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 75,
@@ -35,16 +36,18 @@
     "timeWeek": 72,
     "timeMonth": 79,
     "timeYear": 75,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-11-13": 1
+    }
   },
   {
     "name": "MarketEdge GraphQL Endpoint",
     "url": "https://www.mktedg.com/api/graphql",
     "icon": "https://icons.duckduckgo.com/ip3/www.mktedg.com.ico",
     "slug": "market-edge-graph-ql-endpoint",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -53,6 +56,8 @@
     "timeWeek": 81,
     "timeMonth": 88,
     "timeYear": 84,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-11-13": 0
+    }
   }
 ]
