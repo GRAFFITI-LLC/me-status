@@ -4,19 +4,19 @@
     "url": "https://www.mktedg.com",
     "icon": "https://icons.duckduckgo.com/ip3/www.mktedg.com.ico",
     "slug": "market-edge-production-web",
-    "status": "down",
+    "status": "up",
     "uptime": "99.93%",
-    "uptimeDay": "97.47%",
-    "uptimeWeek": "99.64%",
+    "uptimeDay": "97.24%",
+    "uptimeWeek": "99.61%",
     "uptimeMonth": "99.90%",
     "uptimeYear": "99.93%",
-    "time": 613,
-    "timeDay": 446,
-    "timeWeek": 576,
-    "timeMonth": 627,
-    "timeYear": 613,
+    "time": 611,
+    "timeDay": 471,
+    "timeWeek": 566,
+    "timeMonth": 624,
+    "timeYear": 611,
     "dailyMinutesDown": {
-      "2025-11-13": 36,
+      "2025-11-13": 40,
       "2025-10-16": 6
     }
   },
@@ -25,19 +25,19 @@
     "url": "https://www.mktedg.com/api/health",
     "icon": "https://icons.duckduckgo.com/ip3/www.mktedg.com.ico",
     "slug": "market-edge-api-health",
-    "status": "down",
+    "status": "up",
     "uptime": "99.98%",
-    "uptimeDay": "99.28%",
-    "uptimeWeek": "99.90%",
-    "uptimeMonth": "99.98%",
+    "uptimeDay": "99.05%",
+    "uptimeWeek": "99.86%",
+    "uptimeMonth": "99.97%",
     "uptimeYear": "99.98%",
     "time": 98,
-    "timeDay": 621,
-    "timeWeek": 215,
-    "timeMonth": 111,
+    "timeDay": 443,
+    "timeWeek": 200,
+    "timeMonth": 110,
     "timeYear": 98,
     "dailyMinutesDown": {
-      "2025-11-13": 11
+      "2025-11-13": 14
     }
   },
   {
@@ -45,19 +45,19 @@
     "url": "https://www.mktedg.com/api/graphql",
     "icon": "https://icons.duckduckgo.com/ip3/www.mktedg.com.ico",
     "slug": "market-edge-graph-ql-endpoint",
-    "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "99.45%",
-    "uptimeWeek": "99.92%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "99.99%",
+    "status": "up",
+    "uptime": "99.98%",
+    "uptimeDay": "99.21%",
+    "uptimeWeek": "99.89%",
+    "uptimeMonth": "99.97%",
+    "uptimeYear": "99.98%",
     "time": 106,
-    "timeDay": 608,
-    "timeWeek": 217,
-    "timeMonth": 119,
+    "timeDay": 436,
+    "timeWeek": 203,
+    "timeMonth": 118,
     "timeYear": 106,
     "dailyMinutesDown": {
-      "2025-11-13": 8
+      "2025-11-13": 11
     }
   }
 ]
