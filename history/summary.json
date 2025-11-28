@@ -5,16 +5,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/www.mktedg.com.ico",
     "slug": "market-edge-production-web",
     "status": "up",
-    "uptime": "99.94%",
+    "uptime": "99.95%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.91%",
-    "uptimeYear": "99.94%",
-    "time": 604,
-    "timeDay": 319,
-    "timeWeek": 610,
-    "timeMonth": 621,
-    "timeYear": 604,
+    "uptimeYear": "99.95%",
+    "time": 599,
+    "timeDay": 216,
+    "timeWeek": 543,
+    "timeMonth": 603,
+    "timeYear": 599,
     "dailyMinutesDown": {
       "2025-11-13": 40,
       "2025-10-16": 6
@@ -31,11 +31,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.97%",
     "uptimeYear": "99.98%",
-    "time": 94,
-    "timeDay": 31,
-    "timeWeek": 83,
-    "timeMonth": 120,
-    "timeYear": 94,
+    "time": 93,
+    "timeDay": 19,
+    "timeWeek": 72,
+    "timeMonth": 117,
+    "timeYear": 93,
     "dailyMinutesDown": {
       "2025-11-13": 14
     }
@@ -51,11 +51,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.97%",
     "uptimeYear": "99.99%",
-    "time": 102,
-    "timeDay": 35,
-    "timeWeek": 90,
-    "timeMonth": 126,
-    "timeYear": 102,
+    "time": 101,
+    "timeDay": 34,
+    "timeWeek": 80,
+    "timeMonth": 123,
+    "timeYear": 101,
     "dailyMinutesDown": {
       "2025-11-13": 11
     }
