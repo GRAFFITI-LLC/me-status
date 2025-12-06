@@ -6,8 +6,8 @@
     "slug": "market-edge-production-web",
     "status": "up",
     "uptime": "99.95%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.93%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "99.91%",
     "uptimeYear": "99.95%",
     "time": 600,
@@ -16,6 +16,7 @@
     "timeMonth": 572,
     "timeYear": 600,
     "dailyMinutesDown": {
+      "2025-12-06": 1,
       "2025-11-13": 40,
       "2025-10-16": 6
     }
@@ -25,10 +26,10 @@
     "url": "https://www.mktedg.com/api/health",
     "icon": "https://icons.duckduckgo.com/ip3/www.mktedg.com.ico",
     "slug": "market-edge-api-health",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "99.97%",
     "uptimeYear": "99.99%",
     "time": 91,
@@ -37,6 +38,7 @@
     "timeMonth": 111,
     "timeYear": 91,
     "dailyMinutesDown": {
+      "2025-12-06": 1,
       "2025-11-13": 14
     }
   },
@@ -45,7 +47,7 @@
     "url": "https://www.mktedg.com/api/graphql",
     "icon": "https://icons.duckduckgo.com/ip3/www.mktedg.com.ico",
     "slug": "market-edge-graph-ql-endpoint",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
