@@ -1,7 +1,7 @@
 url: https://www.mktedg.com/api/graphql
-status: degraded
-code: 503
-responseTime: 15055
-lastUpdated: 2026-03-01T20:39:21.110Z
+status: up
+code: 200
+responseTime: 122
+lastUpdated: 2026-03-01T20:48:27.912Z
 startTime: 2025-09-30T12:57:31.033Z
 generator: Upptime <https://github.com/upptime/upptime>
